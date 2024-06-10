@@ -6,7 +6,7 @@
 /*   By: lprieto- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/10 10:47:09 by lprieto-          #+#    #+#             */
-/*   Updated: 2024/06/10 11:10:26 by lprieto-         ###   ########.fr       */
+/*   Updated: 2024/06/10 19:58:30 by lprieto-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,13 @@ void	camel_to_snake(char *str)
 	while (str[i] != '\0')
 	{
 		c = str[i];
-		if (c == '9' || c == '10' || c == '11' || c == '13')
-			i++;
-		if ()
+		if (c >= 'A' && c <= 'Z')
+		{
+			write(1, "_", 1);
+			c = c + 32;
+		}
+		write(1, &c, 1);
+		i++;
 	}
 }
 
@@ -34,7 +38,7 @@ int	main(int argc, char **argv)
 		write(1, "\n", 1);
 		return (0);
 	}
-	camel_to_sanke(argv[1]);
+	camel_to_snake(argv[1]);
 	write(1, "\n", 1);
 	return (0);
 }
