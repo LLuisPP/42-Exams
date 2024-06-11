@@ -6,13 +6,25 @@
 /*   By: lprieto- <lprieto-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/10 20:00:21 by lprieto-          #+#    #+#             */
-/*   Updated: 2024/06/10 20:03:16 by lprieto-         ###   ########.fr       */
+/*   Updated: 2024/06/11 11:43:38 by lprieto-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int	main(int argc, char **argv)
+void	do_op()
 {
 	
+}
+
+int	main(int argc, char **argv)
+{
+	if (argc != 4)
+	{
+		write(1, "\n", 1);
+		return (0);
+	}
+	do_op(argv[1], argv[2], argv[3]);
+	write(1, "\n", 1);
+	return (0);
 }
