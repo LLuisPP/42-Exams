@@ -6,7 +6,7 @@
 /*   By: lprieto- <lprieto-@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/11 11:21:13 by lprieto-          #+#    #+#             */
-/*   Updated: 2024/06/11 11:36:05 by lprieto-         ###   ########.fr       */
+/*   Updated: 2024/06/11 17:28:36 by lprieto-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,20 +21,15 @@ void	alpha_mirror(char *str)
 	while (str[i] != '\0')
 	{
 		c = str[i];
-		if ((c > 'a' && c <= 'm') || (c > 'A' && c <= 'M'))
+		if (c >= 'a' && c <= 'z')
 		{
-			c = c - 25;
+			c = 'z' - c + 'a';
 			write(1, &c, 1);
 		}
-		if ((c > '' && c <= '') || (c > '' && c <= ''))
+		else if(c > 'A' && c <= 'Z')
 		{
-			c = c + 25;
-			
-		}
-		else if (c == 'a' || c <= 'a')
-		{
-			c = c + 25;
-			write(1, &c, 1);
+			c = 'Z' - c + 'A';
+			write(1, &c, 1);	
 		}
 		else
 			write(1, &c, 1);
