@@ -1,50 +1,42 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   rot_13.c                                           :+:      :+:    :+:   */
+/*   pgcd.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lprieto- <lprieto-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/09 18:31:10 by lprieto-          #+#    #+#             */
-/*   Updated: 2024/06/17 10:30:05 by lprieto-         ###   ########.fr       */
+/*   Created: 2024/06/17 09:15:03 by lprieto-          #+#    #+#             */
+/*   Updated: 2024/06/17 09:15:21 by lprieto-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-void	ft_rot13(char *str)
+void	pgcd(int nb1, int nb2)
 {
-	int	i;
-	char	c;
-
-	i = 0;
-	while (str[i] != '\0')
+	if (nb1 > 0 && nb2 > 0)
 	{
-		c = str[i];
-		if ((c >= 'a' && c <= 'm') || (c >= 'A' && c <= 'M'))
-		{	
-			c = c + 13;
-			write(1, &c, 1);
-		}
-		else if ((c <= 'z' && c > 'm') || (c <= 'Z' && c > 'M'))
+		while (nb1 != nb2)
 		{
-			c = c - 13;
-			write(1, &c, 1);
+			if (nb1 > nb2)
+				nb1 -= nb2;
+			else
+				nb2 -= nb1;
 		}
-		else
-			write(1, &str[i], 1);
-		i++;
+		printf("%d", nb1);
 	}
 }
 
 int	main(int argc, char **argv)
 {
-	if (argc != 2)
+	if (argc != 3)
 	{
-		write(1, "\n", 1);
+		printf("\n");
 		return (0);
 	}
-	ft_rot13(argv[1]);
-	write(1, "\n", 1);
+	pgcd(atoi(argv[1]), atoi(argv[2]));
+	printf("\n");
 	return (0);
 }
