@@ -6,7 +6,7 @@
 /*   By: lprieto- <lprieto-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/17 13:03:38 by lprieto-          #+#    #+#             */
-/*   Updated: 2024/06/17 21:44:20 by lprieto-         ###   ########.fr       */
+/*   Updated: 2024/06/18 11:27:26 by lprieto-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,16 +23,16 @@ char	*ft_itoa(int nbr)
 	char 	*output;
 
 	len = 0;
-	n = nbr;
 	sign = 1;
 	
 	if (nbr < INT_MIN || nbr > INT_MAX)
 		return (NULL); 
+	n = nbr;
 	if (nbr <= 0)
 	{
 		sign = -1;
 		len++;
-		n = -n;
+		nbr = -nbr;
 	}
 	while (n != 0)
 	{
@@ -41,15 +41,16 @@ char	*ft_itoa(int nbr)
 	}
 
 
-
 	output = (char *)malloc(sizeof(char) * (len + 1));
 	if (!output)
 		return (NULL);
-	
-
 
 	output[len] = '\0';
-
+	if (nbr == 0)
+	{	
+		output[0] = '0';
+		return (0);
+	}
 	while (nbr != 0)
 	{
 		output[--len] = (nbr % 10) + '0';
