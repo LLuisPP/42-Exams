@@ -6,7 +6,7 @@
 /*   By: lprieto- <lprieto-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/19 18:45:50 by lprieto-          #+#    #+#             */
-/*   Updated: 2024/06/19 18:46:15 by lprieto-         ###   ########.fr       */
+/*   Updated: 2024/06/19 19:03:57 by lprieto-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,20 @@ void	str_capitalizer(char *s)
 	int	i;
 
 	i = 0;
-	while (s[i] == ' ' || s[i]  == 9)
-		i++;
-	if (s[0] >= 'a' && s[0] <= 'z')
+	if (s[i] >= 'a' && s[i] <= 'z')
 	{
-		s[0] -= 32;
-		write(1, &s[0], 1);
+		s[i] -= 32;
+		write(1, &s[i], 1);
+		i++;
+	}
+	else if (s[i] >= 'A' && s[i] <= 'Z')
+	{
+		write(1, &s[i], 1);
+		i++;
+	}
+	else
+	{
+		write(1, &s[i], 1);
 		i++;
 	}
 	while (s[i])
@@ -35,7 +43,7 @@ void	str_capitalizer(char *s)
 		write(1, &s[i], 1);
 		i++;
 	}
-
+	write(1, "\n", 1);
 }
 
 int	main(int argc, char **argv)
@@ -56,6 +64,5 @@ int	main(int argc, char **argv)
 			i++;
 		}
 	}
-	write(1, "\n", 1);
 	return (0);
 }
