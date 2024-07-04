@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   itoa.c                                             :+:      :+:    :+:   */
+/*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lprieto- <lprieto-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/17 13:03:38 by lprieto-          #+#    #+#             */
-/*   Updated: 2024/06/18 11:27:26 by lprieto-         ###   ########.fr       */
+/*   Created: 2024/07/04 11:06:17 by lprieto-          #+#    #+#             */
+/*   Updated: 2024/07/04 11:41:49 by lprieto-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,18 +17,17 @@
 
 char	*ft_itoa(int nbr)
 {
-	int 	len;
 	int	n;
+	int	len;
 	int	sign;
-	char 	*output;
+	char	*output;
 
 	len = 0;
 	sign = 1;
-	
 	if (nbr < INT_MIN || nbr > INT_MAX)
-		return (NULL); 
+		return (NULL);
 	n = nbr;
-	if (nbr <= 0)
+	if (nbr < 0)
 	{
 		sign = -1;
 		len++;
@@ -39,17 +38,14 @@ char	*ft_itoa(int nbr)
 		n = n / 10;
 		len++;
 	}
-
-
 	output = (char *)malloc(sizeof(char) * (len + 1));
-	if (!output)
+	if(!output)
 		return (NULL);
-
 	output[len] = '\0';
 	if (nbr == 0)
-	{	
+	{
 		output[0] = '0';
-		return (0);
+		return (output);
 	}
 	while (nbr != 0)
 	{
@@ -58,10 +54,9 @@ char	*ft_itoa(int nbr)
 	}
 	if (sign == -1)
 		output[0] = '-';
-
 	return (output);
 }
-
+/*
 int	main(int argc, char **argv)
 {
 	if (argc != 2)
@@ -73,3 +68,4 @@ int	main(int argc, char **argv)
 	printf("\n");
 	return (0);
 }
+*/
