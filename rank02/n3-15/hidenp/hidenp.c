@@ -6,7 +6,7 @@
 /*   By: lprieto- <lprieto-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/23 16:28:50 by lprieto-          #+#    #+#             */
-/*   Updated: 2024/07/02 12:43:48 by lprieto-         ###   ########.fr       */
+/*   Updated: 2024/07/09 17:56:17 by lprieto-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ int	main(int argc, char **argv)
 }
 
 
-/*
+/* ANOTHER SOLUTION 1
 
 #include <unistd.h>
 

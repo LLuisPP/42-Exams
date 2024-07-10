@@ -6,7 +6,7 @@
 /*   By: lprieto- <lprieto-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/23 17:51:56 by lprieto-          #+#    #+#             */
-/*   Updated: 2024/06/23 17:52:01 by lprieto-         ###   ########.fr       */
+/*   Updated: 2024/07/10 20:29:42 by lprieto-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	epur_str(char *str)
 	i = 0;
 
 	while (str[i] == ' ' || str[i] == '\t')
-		i += 1;
+		i++;
 	while (str[i])
 	{
 		if (str[i] == ' ' || str[i] == '\t')
@@ -33,7 +33,7 @@ void	epur_str(char *str)
 			sign = 0;
 			write(1, &str[i], 1);
 		}
-		i += 1;;
+		i++;
 	}
 }
 
