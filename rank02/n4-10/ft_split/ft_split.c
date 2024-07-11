@@ -6,9 +6,53 @@
 /*   By: lprieto- <lprieto-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/17 09:17:27 by lprieto-          #+#    #+#             */
-/*   Updated: 2024/07/11 19:23:14 by lprieto-         ###   ########.fr       */
+/*   Updated: 2024/07/11 21:52:39 by lprieto-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdlib.h>
+#include <stdio.h>
+
+char	**ft_split(char *str)
+{
+	int		i;
+	int		j;
+	int		k;
+	char	**s;
+
+	i = 0;
+	j = 0;
+	s = malloc(sizeof(char) * 1000);
+	while (str[i])
+	{
+		if (str[i] != '\t' && str[i] != '\n' && str[i] != ' ')
+		{
+			k = 0;
+			s[j] = malloc(sizeof(char) * 1000);
+			while (str[i] != '\t' && str[i] != '\n' && str[i] != ' ' && str[i])
+			{
+				s[j][k++] = str[i++];
+			}
+			s[j][k] = '\0';
+			printf("%s\n", s[j]);
+			j++;
+		}
+		else
+			i++;
+	}
+	s[j] = 0;
+	return (s);
+}
+
+int	main(int argc, char **argv)
+{
+	if (argc != 2)
+		return (0);
+	ft_split(argv[1]);
+	return (0);
+}
+
+/*
 
 #include <unistd.h>
 #include <stdlib.h>
@@ -73,49 +117,4 @@ int	main(int argc, char **argv)
 	return (0);
 }
 
-/*
-#include <stdlib.h>
-#include <stdio.h>
-
-char	**ft_split(char *str)
-{
-	int		i;
-	int		j;
-	int		k;
-	char	**s;
-
-	i = 0;
-	j = 0;
-	s = malloc(1000 * sizeof(char));
-	while (str[i])
-	{
-		if (str[i] != '\t' && str[i] != '\n' && str[i] != ' ')
-		{
-			k = 0;
-			s[j] = malloc(sizeof(char) * 1000);
-			while (str[i] != '\t' && str[i] != '\n' && str[i] != ' ' && str[i])
-			{
-				s[j][k++] = str[i++];
-			}
-			s[j][k] = '\0';
-			j++;
-		}
-		else
-			i++;
-	}
-	s[j] = 0;
-	return (s);
-}
-
-int	main(void)
-{
-	char	**s;
-	s = ft_split(" starting and ending hola ");
-	printf ("%s\n", s[0]);
-	printf ("%s\n", s[1]);
-	printf ("%s\n", s[2]);
-	printf ("%s\n", s[3]);
-	printf ("%s\n", s[4]);
-	return (0);
-}
 */
