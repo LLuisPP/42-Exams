@@ -6,7 +6,7 @@
 /*   By: lprieto- <lprieto-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/09 16:59:59 by lprieto-          #+#    #+#             */
-/*   Updated: 2024/06/18 19:56:47 by lprieto-         ###   ########.fr       */
+/*   Updated: 2024/07/11 20:31:44 by lprieto-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,9 +29,9 @@ void	repeat_alpha(char *str)
 	while (str[i] != '\0')
 	{
 		if (str[i] >= 'a' && str[i] <= 'z')
-			ft_putchar_nbr(str[i], str[i] - 'a');
+			ft_putchar_nbr(str[i], str[i] + 1 - 'a');
 		if (str[i] >= 'A' && str[i] <= 'Z')
-			ft_putchar_nbr(str[i], str[i] - 'A');
+			ft_putchar_nbr(str[i], str[i] + 1 - 'A');
 		else
 			write(1, &str[i], 1);
 		i++;
