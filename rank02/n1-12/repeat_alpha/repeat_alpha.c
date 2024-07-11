@@ -6,15 +6,15 @@
 /*   By: lprieto- <lprieto-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/09 16:59:59 by lprieto-          #+#    #+#             */
-/*   Updated: 2024/07/11 20:31:44 by lprieto-         ###   ########.fr       */
+/*   Updated: 2024/07/11 20:41:21 by lprieto-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar_nbr(char c, int nbr)
+void	write_n(char c, int nbr)
 {
-	while (nbr > 0)
+	while(nbr > 0)
 	{
 		write(1, &c, 1);
 		nbr--;
@@ -29,23 +29,19 @@ void	repeat_alpha(char *str)
 	while (str[i] != '\0')
 	{
 		if (str[i] >= 'a' && str[i] <= 'z')
-			ft_putchar_nbr(str[i], str[i] + 1 - 'a');
+			write_n(str[i], str[i]  - 'a');
 		if (str[i] >= 'A' && str[i] <= 'Z')
-			ft_putchar_nbr(str[i], str[i] + 1 - 'A');
+			write_n(str[i], str[i] + 1 - 'A');
 		else
-			write(1, &str[i], 1);
+			write_n(str[i], 1);
 		i++;
-	}	
+	}
 }
 
 int	main(int argc, char **argv)
 {
-	if(argc != 2)
-	{
-		write(1, "\n", 1);
-		return (0);
-	}
-	repeat_alpha(argv[1]);	
+	if (argc == 2)
+		repeat_alpha(argv[1]);
 	write(1, "\n", 1);
 	return (0);
 }
