@@ -1,5 +1,21 @@
 # 42-Exams
 
+| lvl | n⁰ | Type | name | operate | ub | tactic |
+|:---|---|:---|:---|:---|:---|---|
+|0|1|Program| `first_word` | ‘\0’ | Y | write;ret |
+|0|2|Program| `fizzbuzz` | nbr | Y | write_n & \n |
+|0|3|Program| `ft_strcpy` | ‘\0’ | Y | ->s2 s1<+’\0’ |
+|0|4|Program| `ft_strlen` | ‘\0’ | Y | -- |
+|0|5|Program| `ft_swap` | *p | Y | *tmp |
+|0|6|Program| `ft_putstr` | ‘\0’ | Y | -- |
+|0|7|Program| `repeat_alpha` | ‘\0’ | Y | s[i] - ‘a’ |
+|0|8|Program| `rev_print` | len | Y | -- |
+|0|9|Program| `rot_13` | ‘\0’ | Y | a-m + / z-n - |
+|0|10|Program| `rotone` | ‘\0’ | Y | b-z - / a +25 |
+|0|11|Program| `search_and_replace` | ‘\0’ | Y | *s=in / wrte out |
+|0|12|Program| `ulstr` | ‘\0’ | Y | a-z-32 A-Z+32 |
+||||||||
+
 P	1	first_word		‘\0’	Y	write;ret
 P	2	fizzbuzz		nbr	Y	write_n & \n
 F	3	ft_strcpy		‘\0'	Y+	->s2 s1<+’\0’
