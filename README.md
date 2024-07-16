@@ -1,5 +1,8 @@
-# 42-Exams
+# 42 rank 02
+<div align="center">
 
+<h3 align="left"> Level 0  (25 point to be earned) <img align="right" src="https://img.shields.io/badge/0-/_100-darkgreen"> </h3>
+  
 | lvl | n⁰ | Type | name | operate | ub | tactic |
 |:---|---|:---|:---|:---|:---|---|
 |0|1|Prog| `first_word` | ‘\0’ | Y | write;ret |
@@ -14,7 +17,17 @@
 |0|10|Prog| `rotone` | ‘\0’ | Y | b-z - / a +25 |
 |0|11|Prog| `search_and_replace` | ‘\0’ | Y | *s=in / wrte out |
 |0|12|Prog| `ulstr` | ‘\0’ | Y | a-z-32 A-Z+32 |
-||||||||
+
+</div>
+  
+***
+
+<div align="center">
+
+<h3 align="left"> Level 1  (for earn 25 points on success) <img align="right" src="https://img.shields.io/badge/25-/_100-darkgreen"> </h3>
+
+| lvl | n⁰ | Type | name | operate | ub | tactic |
+|:---|---|:---|:---|:---|:---|---|
 |1|1|Prog| `alpha_mirror` | ‘\0’ | Y |  |
 |1|2|Prog| `camel_to_snake` | ‘\0’ | Y+ |  |
 |1|3|Prog| `do_op` | ‘\0’ | Y+ |  |
@@ -35,31 +48,52 @@
 |1|18|Func| `swap_bits` | >> | Y | (oc >> 4) | (oc << 4) |
 |1|19|Prog| `union` | *s*s | Y | Sav writ s++ |
 |1|20|Prog| `wdmatch` | ‘\0’ | Y+ | j++ i ++ |
-||||||||
 
-P	1	add_prime_sum			Y	
-P	2	epur_str		‘\0’	Y	
-F	3	expand_str		‘\0’	Y++	
-F	4	ft_atoi_base			Y	
-F	5	ft_list_size		t_l	Y	t_l = 0 || t_l->n
-P	6	ft_range			Y	
-P	7	ft_rrange			Y	
-P	8	hidenp			‘\0’	Y	
-P	9	lcm				Y	
-P	10	paramsum		ac	Y	write_n arc
-P	11	pgcd				Y	
-P	12	print_hex		nbr	Y	write_n 16
-P	13	rstr_capitalizer	'\0’		A->a | a+1
-P	14	str_capitalizer		‘\0’		
-P	15	tab_mult			
+</div>
 
-F	1	flood_fill		X	R	ff -> fill > X r fill
-P	2	fprime				Y	
-F	3	ft_itoa				Y	
-F	4	ft_list_foreach			Y	
-F	5	ft_list_remove_if			
-F	6	ft_split			
-P	7	rev_wstr			
-P	8	rostring			
-P	9	sort_int_tab			
-P	10	sort_list			
+***
+
+<div align="center">
+
+<h3 align="left"> Level 2  (for earn 25 points on success) <img align="right" src="https://img.shields.io/badge/75-/_100-darkgreen"> </h3>
+
+| lvl | n⁰ | Type | name | operate | ub | tactic |
+|:---|---|:---|:---|:---|:---|---|
+|2|1|Prog| `add_prime_sum` | ‘\0’ | Y |  |
+|2|2|Prog| `epur_str` | ‘\0’ | Y |  |
+|2|3|Func| `expand_str` | '\0' | Y+ |  |
+|2|4|Func| `ft_atoi_base` |  | Y |  |
+|2|5|Func| `ft_list_size` | t_l | Y | t_l = 0 || t_l->n |
+|2|6|Func| `ft_range` |  | Y |  |
+|2|7|Prog| `ft_rrange` | ‘\0’ | Y |  |
+|2|8|Prog| `hidenp` | len | Y |  |
+|2|9|Prog| `lcm` | ‘\0’ | Y |  |
+|2|10|Prog| `paramsum` | ac | Y | write_n arc |
+|2|11|Prog| `pgcd` | ‘\0’ | Y |  |
+|2|12|Prog| `print_hex` | nbr | Y | write_n 16 |
+|2|13|Prog| `rstr_capitalizer` | ‘\0’ | Y | A->a | a+1 |
+|2|14|Func| `str_capitalizer` | ‘\0’ | Y |  |
+|2|15|Func| `tab_mult` | i | Y |  |
+
+</div>
+
+***
+
+<div align="center">
+
+<h3 align="left"> Level 2  (for earn 25 points on success) <img align="right" src="https://img.shields.io/badge/100-/_100-darkgreen"> </h3>
+
+| lvl | n⁰ | Type | name | operate | ub | tactic |
+|:---|---|:---|:---|:---|:---|---|
+|0|1|Prog| `flood_fill` | X | R | ff -> fill > X r fill |
+|0|2|Prog| `fprime` | nbr | Y |  |
+|0|3|Func| `ft_itoa` |  | +Y+ |  |
+|0|4|Func| `ft_list_foreach` |  |  |  |
+|0|5|Func| `ft_list_remove_if` |  |  |  |
+|0|6|Func| `ft_split` | str[i] | Y | str[i], s[j][k] |
+|0|7|Prog| `rev_wstr` |  |  |  |
+|0|8|Prog| `rostring` |  |  |  |
+|0|9|Prog| `sort_int_tab` |  |  |  |
+|0|10|Prog| `sort_list` |  |  |  |	
+
+</div>
