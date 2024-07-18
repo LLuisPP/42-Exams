@@ -6,7 +6,7 @@
 /*   By: lprieto- <lprieto-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/18 17:17:42 by lprieto-          #+#    #+#             */
-/*   Updated: 2024/06/18 17:57:16 by lprieto-         ###   ########.fr       */
+/*   Updated: 2024/07/18 15:05:56 by lprieto-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,12 @@
 #include <limits.h>
 #include <stdio.h>
 #include "ft_list.h"
+
+/*typedef	struct s_list
+{
+	void		*data;
+	struct s_list	*next;
+}	t_list;*/
 
 void	ft_list_foreach(t_list *begin_list, void (*f)(void *))
 {
@@ -25,13 +31,36 @@ void	ft_list_foreach(t_list *begin_list, void (*f)(void *))
     }
 }
 
+void print_element(void *data)
+{
+    printf("%s\n",(char *) data);
+}
+
+int main(void)
+{
+	t_list a;
+	t_list b;
+	t_list c;
+	t_list d;
+
+	a.next = &b;
+	b.next = &c;
+	c.next = &d;
+	d.next = NULL;
+
+	a.data = "00";
+	b.data = "01";
+	c.data = "02";
+	d.data = "03";
+
+	ft_list_foreach( &a , print_element );
+}
 
 
 
 
 
-
-
+/*
 // Funcion para aplicar a cada elemento (*f)
 void print_element(void *data)
 {
@@ -69,4 +98,4 @@ int main(void)
     }
 
     return (0);
-}
+}*/

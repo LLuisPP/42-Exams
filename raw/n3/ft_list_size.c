@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_list_size.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lprieto- <lprieto-@student.42barcel>       +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/07/18 15:14:24 by lprieto-          #+#    #+#             */
+/*   Updated: 2024/07/18 15:14:27 by lprieto-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
 
 #include <stdlib.h>
@@ -29,6 +41,28 @@ int	ft_list_size(t_list *begin_list)
 		}
 	return (list_size);
 }
+
+int main(void)
+{
+	t_list a;
+	t_list b;
+	t_list c;
+	t_list d;
+
+	a.next = &b;
+	b.next = &c;
+	c.next = &d;
+	d.next = NULL;
+
+	a.data = "00";
+	b.data = "01";
+	c.data = "02";
+	d.data = "03";
+
+	printf("list_size = %d\n", ft_list_size(&a));
+}
+
+/*
 // -------------------------------------------------------
 
 t_list *create_node(void *data)
@@ -60,4 +94,4 @@ int	main(void)
     free(node3);
 
     return 0;
-}
+}*/
