@@ -8,18 +8,18 @@ not  🟤​🔴​🟠​🟡​🟢 yes
   
 | lvl | Type | name | op | ub | tactic | did | dom |
 |:---|:---|:---|:---|:---|---|---|---|
-|0-1|Prog| `first_word` | ‘\0’ | Y | write;ret |✅|🟢​​|
-|0-2|Prog| `fizzbuzz` | nbr | Y | write_n & \n |✅|🟢|
-|0-3|Func| `ft_strcpy` | ‘\0’ | Y+ | ->s2 s1<+’\0’ |✅|🟢|
-|0-4|Func| `ft_strlen` | ‘\0’ | Y | -- |✅|🟢|
-|0-5|Func| `ft_swap` | *p | Y | *tmp |✅|🟡|
-|0-6|Func| `ft_putstr` | ‘\0’ | Y | -- |✅|🟢|
-|0-7|Prog| `repeat_alpha` | ‘\0’ | Y | s[i] - ‘a’ |✅|🟡|
-|0-8|Prog| `rev_print` | len | Y | -- |✅|🟢|
-|0-9|Prog| `rot_13` | ‘\0’ | Y | a-m + / z-n - |✅|🟢|
-|0-10|Prog| `rotone` | ‘\0’ | Y | b-z - / a +25 |✅|🟢|
-|0-11|Prog| `search_and_replace` | ‘\0’ | Y | *s=in / wrte out |✅|🟢|
-|0-12|Prog| `ulstr` | ‘\0’ | Y | a-z-32 A-Z+32 |✅|🟢|
+|0-1|Prog| [`first_word`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/first_word) | ‘\0’ | Y | write;ret |✅|🟢​​|
+|0-2|Prog| [`fizzbuzz`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/fizzbuzz) | nbr | Y | write_n & \n |✅|🟢|
+|0-3|Func| [`ft_strcpy`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/ft_strcpy) | ‘\0’ | Y+ | ->s2 s1<+’\0’ |✅|🟢|
+|0-4|Func| [`ft_strlen`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/ft_strlen) | ‘\0’ | Y | -- |✅|🟢|
+|0-5|Func| [`ft_swap`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/ft_swap) | *p | Y | *tmp |✅|🟡|
+|0-6|Func| [`ft_putstr`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/ft_putstr) | ‘\0’ | Y | -- |✅|🟢|
+|0-7|Prog| [`repeat_alpha`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/repeat_alpha) | ‘\0’ | Y | s[i] - ‘a’ |✅|🟡|
+|0-8|Prog| [`rev_print`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/rev_print) | len | Y | -- |✅|🟢|
+|0-9|Prog| [`rot_13`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/rot_13) | ‘\0’ | Y | a-m + / z-n - |✅|🟢|
+|0-10|Prog| [`rotone`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/rotone) | ‘\0’ | Y | b-z - / a +25 |✅|🟢|
+|0-11|Prog| [`search_and_replace`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/search_and_replace) | ‘\0’ | Y | *s=in / wrte out |✅|🟢|
+|0-12|Prog| [`ulstr`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/ulstr) | ‘\0’ | Y | a-z-32 A-Z+32 |✅|🟢|
 
 </div>
   
