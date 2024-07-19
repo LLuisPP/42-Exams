@@ -85,15 +85,15 @@ not  🟤​🔴🟠​🟡​🟢 yes
 
 | lvl | Type | name | op | ub | tactic | did | dom |
 |:---|:---|:---|:---|:---|---|---|---|
-|3-1|Prog| [`flood_fill`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-12/flood_fill) | X | R | ff -> fill > X r fill |✅|🟢​​|
-|3-2|Prog| [`fprime`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-12/fprime) | nbr | Y |  |✅|🟢​​|
-|3-3|Func| [`ft_itoa`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-12/ft_itoa) |  | +Y+ |  |✅|🟢​​|
-|3-4|Func| [`ft_list_foreach`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-12/ft_list_foreach) |  |  | |✅|🔴|
-|3-5|Func| [`ft_list_remove_if`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-12/ft_list_remove_if) |  |  |  |❌​|🔴​​|
-|3-6|Func| [`ft_split`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-12/ft_split) | str[i] | Y | str[i], s[j][k] |✅|🟢​​|
-|3-7|Prog| [`rev_wstr`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-12/rev_wstr) |  |  |  |✅|🟢​​|
-|3-8|Prog| [`rostring`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-12/rostring) |  |  |  |✅|🟢​​|
-|3-9|Prog| [`sort_int_tab`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-12/sort_int_tab) |  |  |  |❌​|🟢​​|
-|3-10|Prog| [`sort_list`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-12/sort_list) |  |  |  |❌|🔴​​|
+|3-1|Prog| [`flood_fill`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/flood_fill) | X | R | ff -> fill > X r fill |✅|🟢​​|
+|3-2|Prog| [`fprime`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/fprime) | nbr | Y |  |✅|🟢​​|
+|3-3|Func| [`ft_itoa`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_itoa) |  | +Y+ |  |✅|🟢​​|
+|3-4|Func| [`ft_list_foreach`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_list_foreach) |  |  | |✅|🔴|
+|3-5|Func| [`ft_list_remove_if`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_list_remove_if) |  |  |  |❌​|🔴​​|
+|3-6|Func| [`ft_split`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_split) | str[i] | Y | str[i], s[j][k] |✅|🟢​​|
+|3-7|Prog| [`rev_wstr`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/rev_wstr) |  |  |  |✅|🟢​​|
+|3-8|Prog| [`rostring`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/rostring) |  |  |  |✅|🟢​​|
+|3-9|Prog| [`sort_int_tab`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/sort_int_tab) |  |  |  |❌​|🟢​​|
+|3-10|Prog| [`sort_list`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/sort_list) |  |  |  |❌|🔴​​|
 
 </div>
