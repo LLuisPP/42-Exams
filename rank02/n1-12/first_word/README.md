@@ -28,6 +28,12 @@ lorem,ipsum$
 $>
 ```
 
+<div align="center">
+  
+|[`rank 00`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/first_word) | [`rank 01`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/) | [`rank02`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/) | [`rank 03`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-12/) |
+
+</div>
+
 ***
 
 <div align="center">
@@ -36,6 +42,3 @@ $>
 |[`repeat_alpha`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/repeat_alpha) | [`rev_print`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/rev_print) | [`rot_13`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/rot_13) | [`rotone`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/rotone) | [`search_and_replace`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/search_and_replace) | [`ulstr`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/ulstr) |
 
 </div>
-
-
-
