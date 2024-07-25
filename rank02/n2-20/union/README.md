@@ -1,27 +1,34 @@
 ```
-Assignment name  : reverse_bits
-Expected files   : reverse_bits.c
-Allowed functions:
+Assignment name  : union
+Expected files   : union.c
+Allowed functions: write
 --------------------------------------------------------------------------------
 
-Write a function that takes a byte, reverses it, bit by bit (like the
-example) and returns the result.
+Write a program that takes two strings and displays, without doubles, the
+characters that appear in either one of the strings.
 
-Your function must be declared as follows:
+The display will be in the order characters appear in the command line, and
+will be followed by a \n.
 
-unsigned char	reverse_bits(unsigned char octet);
+If the number of arguments is not 2, the program displays \n.
 
 Example:
 
-  1 byte
-_____________
- 0100  0001
-     ||
-     \/
- 1000  0010
- ```
+$>./union zpadinton "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
+zpadintoqefwjy$
+$>./union ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
+df6vewg4thras$
+$>./union "rien" "cette phrase ne cache rien" | cat -e
+rienct phas$
+$>./union | cat -e
+$
+$>
+$>./union "rien" | cat -e
+$
+$>
+```
 
- <div align="center">
+<div align="center">
   
 |[`lvl 1`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/) | [`lvl 2`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/) | [`lvl 3`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/) | [`lvl 4`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/) |
 
