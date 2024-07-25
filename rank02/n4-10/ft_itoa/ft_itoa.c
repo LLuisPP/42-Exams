@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lprieto- <lprieto-@student.42barcel>       +#+  +:+       +#+        */
+/*   By: lprieto- <lprieto-@student.42barcelona.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/04 11:06:17 by lprieto-          #+#    #+#             */
-/*   Updated: 2024/07/04 11:41:49 by lprieto-         ###   ########.fr       */
+/*   Updated: 2024/07/25 21:39:44 by lprieto-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,9 @@ char	*ft_itoa(int nbr)
 
 	len = 0;
 	sign = 1;
-	if (nbr < INT_MIN || nbr > INT_MAX)
+	if (nbr == -2147483648)
+		return ("-2147483648\0");
+	if (nbr > INT_MAX)
 		return (NULL);
 	n = nbr;
 	if (nbr < 0)
