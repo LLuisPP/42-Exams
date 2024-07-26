@@ -1,12 +1,10 @@
 # 42 rank 02
 
 <div align="center">
-
-<h3 align="left"> Level 0  (25 point to be earned) <img align="right" src="https://img.shields.io/badge/0-/_100-darkgreen"> </h3>
   
 |#| n1 | n2 | n3 | n4 |
 |---|:---|:---|:---|:---|
-||<img align="right" src="https://img.shields.io/badge/25-/_100-darkgreen"> |<img align="right" src="https://img.shields.io/badge/50-/_100-darkgreen"> |<img align="right" src="https://img.shields.io/badge/75-/_100-darkgreen"> |<img align="right" src="https://img.shields.io/badge/100-/_100-darkgreen"> |
+||<img align="center" src="https://img.shields.io/badge/25-/_100-darkgreen"> |<img align="center" src="https://img.shields.io/badge/50-/_100-darkgreen"> |<img align="center" src="https://img.shields.io/badge/75-/_100-darkgreen"> |<img align="center" src="https://img.shields.io/badge/100-/_100-darkgreen"> |
 |1| [`first_word`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/first_word) | [`alpha_mirror`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/alpha_mirror) |[`add_prime_sum`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/add_prime_sum) |[`flood_fill`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/flood_fill) |
 |2|[`fizzbuzz`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/fizzbuzz) | [`camel_to_snake`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/camel_to_snake) | [`epur_str`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/epur_str) |[`fprime`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/fprime) |
 |3|[`ft_strcpy`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/ft_strcpy) |  [`do_op`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/do_op) |[`expand_str`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/expand_str) |[`ft_itoa`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_itoa) |[`ft_list_foreach`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_list_foreach) |
