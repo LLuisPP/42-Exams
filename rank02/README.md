@@ -4,7 +4,7 @@
   
 |#| n1 <img align="right" src="https://img.shields.io/badge/25-/_100-darkgreen"> | n2 <img align="right" src="https://img.shields.io/badge/50-/_100-darkgreen"> | n3 <img align="right" src="https://img.shields.io/badge/75-/_100-darkgreen"> | n4 <img align="right" src="https://img.shields.io/badge/100-/_100-darkgreen"> |
 |---|:---|:---|:---|:---|
-|1| [`first_word`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/first_word) | [`alpha_mirror`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/alpha_mirror) |[`add_prime_sum`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/add_prime_sum) |[`flood_fill`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/flood_fill) |
+|1| [`first_word`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/first_word) | [`alpha_mirror`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/alpha_mirror) | [`add_prime_sum`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/add_prime_sum) |[`flood_fill`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/flood_fill) |
 |2|[`fizzbuzz`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/fizzbuzz) | [`camel_to_snake`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/camel_to_snake) | [`epur_str`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/epur_str) |[`fprime`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/fprime) |
 |3|[`ft_strcpy`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/ft_strcpy) |  [`do_op`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/do_op) |[`expand_str`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/expand_str) |[`ft_itoa`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_itoa) |[`ft_list_foreach`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_list_foreach) |
 |4|[`ft_strlen`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/ft_strlen) |  [`ft_atoi`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/ft_atoi) |[`ft_atoi_base`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/ft_atoi_base) |[`ft_list_remove_if`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_list_remove_if) |
@@ -63,7 +63,7 @@ easy 🟢​​🟡​🟠​🔴 hard
 |1-3|Prog| [`do_op`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/do_op) |🟢​​🟢​​|
 |1-4|Func| [`ft_atoi`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/ft_atoi) |🟢​​🟡|
 |1-5|Func| [`ft_strcmp`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/ft_strcmp) |🟢​​🟢​​|
-|1-6|Func| [`ft_strcspn`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/ft_strcspn) |🟢​​|
+|1-6|Func| [`ft_strcspn`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/ft_strcspn) |🟢🟡​​|
 |1-7|Func| [`ft_strdup`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/ft_strdup) |🟢🟢​​​​|
 |1-8|Func| [`ft_strpbrk`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/ft_strpbrk) |🟢​​🟡​​|
 |1-9|Func| [`ft_strrev`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/ft_strrev) |🟢🟡​​​​|
