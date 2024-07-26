@@ -18,9 +18,9 @@
 |10| [`rotone`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/rotone) | [`ft_strspn`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/ft_strspn) | [`paramsum`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/paramsum) | [`ft_list_foreach`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_list_foreach) |
 |11| [`search_and_replace`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/search_and_replace) | [`inter`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/inter) |[`pgcd`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/pgcd) |
 |12| [`ulstr`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/ulstr) | [`is_power_of_2`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/is_power_of_2) |[`print_hex`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/print_hex) |
-|13||[`last_word`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/last_word) ||
-|14|| [`max`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/max) ||
-|15|| [`print_bits`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/print_bits) ||
+|13||[`last_word`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/last_word) |[`rstr_capitalizer`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/rstr_capitalizer)|
+|14|| [`max`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/max) |[`str_capitalizer`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/str_capitalizer)|
+|15|| [`print_bits`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/print_bits) |[`tab_mult`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/tab_mult)|
 |16|| [`reverse_bits`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/reverse_bits) ||
 |17|| [`snake_to_camel`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/snake_to_camel) ||
 |18|| [`swap_bits`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/swap_bits) ||
