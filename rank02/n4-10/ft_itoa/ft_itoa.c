@@ -6,58 +6,55 @@
 /*   By: lprieto- <lprieto-@student.42barcelona.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/04 11:06:17 by lprieto-          #+#    #+#             */
-/*   Updated: 2024/07/25 21:39:44 by lprieto-         ###   ########.fr       */
+/*   Updated: 2024/07/26 08:22:08 by lprieto-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdlib.h>
-#include <limits.h>
 #include <stdio.h>
+#include <limits.h>
 
 char	*ft_itoa(int nbr)
 {
 	int	n;
 	int	len;
-	int	sign;
-	char	*output;
+	char	*out;
 
 	len = 0;
-	sign = 1;
+	n = nbr;
 	if (nbr == -2147483648)
 		return ("-2147483648\0");
-	if (nbr > INT_MAX)
-		return (NULL);
-	n = nbr;
-	if (nbr < 0)
-	{
-		sign = -1;
+	if (nbr <= 0)
 		len++;
-		nbr = -nbr;
-	}
-	while (n != 0)
+	while (n)
 	{
 		n = n / 10;
 		len++;
 	}
-	output = (char *)malloc(sizeof(char) * (len + 1));
-	if(!output)
+	out = (char *)malloc(sizeof(char) * len + 1);
+	if (!out)
 		return (NULL);
-	output[len] = '\0';
+	out[len] = '\0';
 	if (nbr == 0)
 	{
-		output[0] = '0';
-		return (output);
+		out[0] = '0';
+		return (out);
+	}
+
+	if (nbr < 0)
+	{
+		out[0] = '-';
+		nbr = -nbr;
 	}
 	while (nbr != 0)
 	{
-		output[--len] = (nbr % 10) + '0';
+		out[--len] = (nbr % 10) + '0';
 		nbr = nbr / 10;
 	}
-	if (sign == -1)
-		output[0] = '-';
-	return (output);
+	return (out);
 }
+
 /*
 int	main(int argc, char **argv)
 {
