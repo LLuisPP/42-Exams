@@ -1,10 +1,10 @@
-# 42 rank 02
+# rank 02
 
 <div align="center">
   
 |#| n1 | n2 | n3 | n4 |
-|---|:---|:---|:---|:---|
-||<img align="center" src="https://img.shields.io/badge/25-/_100-darkgreen"> |<img align="center" src="https://img.shields.io/badge/50-/_100-darkgreen"> |<img align="center" src="https://img.shields.io/badge/75-/_100-darkgreen"> |<img align="center" src="https://img.shields.io/badge/100-/_100-darkgreen"> |
+|---|---|---|---|---|
+||<img align="center" src="https://img.shields.io/badge/25-/_100-darkgreen"> | <img align="center" src="https://img.shields.io/badge/50-/_100-darkgreen"> | <img align="center" src="https://img.shields.io/badge/75-/_100-darkgreen"> | <img align="center" src="https://img.shields.io/badge/100-/_100-darkgreen"> |
 |1| [`first_word`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/first_word) | [`alpha_mirror`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/alpha_mirror) |[`add_prime_sum`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/add_prime_sum) |[`flood_fill`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/flood_fill) |
 |2|[`fizzbuzz`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/fizzbuzz) | [`camel_to_snake`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/camel_to_snake) | [`epur_str`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/epur_str) |[`fprime`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/fprime) |
 |3|[`ft_strcpy`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n1-12/ft_strcpy) |  [`do_op`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/do_op) |[`expand_str`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n3-15/expand_str) |[`ft_itoa`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_itoa) |[`ft_list_foreach`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_list_foreach) |
@@ -25,5 +25,30 @@
 |18|| [`swap_bits`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/swap_bits) ||
 |19|| [`union`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/union) ||
 |20|| [`wdmatch`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n2-20/wdmatch) ||
+
+success: <img src="https://img.shields.io/badge/100-/_100-darkgreen">
+</div>
+
+# rank 03
+
+<div align="center">
+  
+|  |  option 1 |  option 2 |
+|---|---|---|
+| random option | [`ft_printf`](https://github.com/LLuisPP/42-Exams-rank03/tree/main/ft_printf) | [`get_next_line`](https://github.com/LLuisPP/42-Exams-rank03/tree/main/get_next_line) |
+
+success: <img src="https://img.shields.io/badge/100-/_100-darkgreen">
+
+</div>
+
+# rank 04
+
+<div align="center">
+  
+|| microshell|
+|---|---|
+| single option | [`microshell`](https://github.com/LLuisPP/42-exams-rank04) |
+
+success: <img src="https://img.shields.io/badge/100-/_100-darkgreen">
 
 </div>
