@@ -23,6 +23,6 @@ char	*ft_itoa(int nbr);
 <div align="center">
 
 | [`flood_fill`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/flood_fill) | [`fprime`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/fprime) | [`ft_itoa`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_itoa)| [`ft_list_foreach`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_list_foreach) | [`ft_list_remove_if`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_list_remove_if) | <br>
-| [`ft_split`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_split) | [`rev_wstr`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/rev_wstr) | [`rostring`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/rostring) | [`sort_int_tab`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/sort_in_tab) | [`sort_list`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/sort_list) |
+| [`ft_split`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_split) | [`rev_wstr`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/rev_wstr) | [`rostring`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/rostring) | [`sort_in_tab`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/sort_in_tab) | [`sort_list`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/sort_list) |
 
 </div>
