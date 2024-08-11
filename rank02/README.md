@@ -120,7 +120,7 @@ easy 🟢​​🟡​🟠​🔴 hard
 |3-6|Func| [`ft_split`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/ft_split) |​​🟡🟠|
 |3-7|Prog| [`rev_wstr`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/rev_wstr) |​​🟡🟠|
 |3-8|Prog| [`rostring`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/rostring) |​​🟡🟠|
-|3-9|Prog| [`sort_int_tab`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/sort_int_tab) |🟢🟡​​|
+|3-9|Prog| [`sort_in_tab`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/sort_in_tab) |🟢🟡​​|
 |3-10|Prog| [`sort_list`](https://github.com/LLuisPP/42-Exams/tree/main/rank02/n4-10/sort_list) |🟡🟠​​|
 
 </div>
