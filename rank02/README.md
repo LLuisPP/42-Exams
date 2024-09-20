@@ -29,6 +29,8 @@
 
 easy 🟢​​🟡​🟠​🔴 hard
 
+***
+
 <div align="center">
 
 <h3 align="left"> Level 0  (25 point to be earned) <img align="right" src="https://img.shields.io/badge/0-/_100-darkgreen"> </h3>
